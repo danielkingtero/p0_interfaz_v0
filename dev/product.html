@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+      <link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+
+      <div class="container">
+
+
+      <div class="fixed-action-btn horizontal">
+          <a class="btn-floating btn-large pink accent-3">
+            <i class="large material-icons">insert_emoticon</i>
+          </a>
+          <ul>
+            <li><a class="btn-floating  purple lighten-3"><i class="material-icons">format_align_left</i></a></li>
+            <li><a class="btn-floating pink lighten-1"><i class="material-icons">format_align_right</i></a></li>
+            <li><a class="btn-floating deep-purple lighten-1"><i class="material-icons">format_align_center</i></a></li>
+            <li><a class="btn-floating blue lighten-1"><i class="material-icons">format_align_justify</i></a></li>
+          </ul>
+      </div>
+
+      </div>
+
+
+      <nav class="pink accent-3" role="navigation">
+         <div class="nav-wrapper container">
+           <a id="logo-container" href="#" class="brand-logo"> <!--Logo--></a>
+           <ul class="right hide-on-med-and-down">
+             <li><a href="#">Navbar Link</a></li>
+           </ul>
+
+           <ul id="nav-mobile" class="sidenav">
+             <li><a href="#">Menú</a></li>
+           </ul>
+           <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+         </div>
+       </nav>
+
+    <nav class="white z-depth-0">
+      <div class="nav-wrapper container ">
+        <div class="col s12">
+          <a href="#!" class="breadcrumb ">Categoria</a>
+          <a href="#!" class="breadcrumb">Tecnologia</a>
+          <a href="#!" class="breadcrumb">Celular</a>
+        </div>
+      </div>
+    </nav>
+
+
+
+      <div class="container">
+       <!-- Page Content goes here -->
+       <div class="row">
+
+         <div class="col s12 m5">
+                    <div class="icon-block">
+                      <h2 class="center light-blue-text"></h2>
+                       <img class="responsive-img" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone11-select-2019-family_GEO_EMEA?wid=882&hei=1058&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1567022219953">
+                    </div>
+         </div>
+         <div class="col s12 m7">
+                    <div class="icon-block">
+                      <div class="m7">
+                        <h4 class="center">Iphone</h4>
+                      </div>
+
+
+
+                      <div class="m7">
+                        <p class="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sollicitudin tellus. Vestibulum et erat odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur venenatis ac elit sit amet finibus. Donec volutpat a nunc id aliquet. Vivamus ut erat enim. Proin varius enim pharetra tortor consequat egestas.</p>
+                      </div>
+                        <div class="input-field m7">
+                          <i class="material-icons prefix">account_circle</i>
+                          <input placeholder="Fecha de Inicio" type="text" class="datepicker">
+                        </div>
+                        <div class="input-field m7">
+                          <i class="material-icons prefix">account_circle</i>
+                          <input placeholder="Fecha de Entrega" type="text" class="datepicker">
+                        </div>
+                    </div>
+         </div>
+
+ <div class="col s12">
+         <div class="col s12 m5">
+           <p class="center-align">
+            <a class="waves-effect waves-light btn-small amber"><i class="material-icons left">whatshot</i>Prestar</a>
+           </p>
+         </div>
+
+         <div class="col s12 m7">
+           <p class="center-align">
+             <h5 class="center">$100.000</h5>
+           </p>
+         </div>
+</div>
+
+
+         <div class="col s12">
+             </br>
+          </div>
+
+
+       </div>
+      </div>
+
+
+  <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Footer Content</h5>
+            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2014 Copyright Text
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+      </div>
+  </footer>
+
+      <!--JavaScript at end of body for optimized loading-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script type="text/javascript">
+var currYear = (new Date()).getFullYear();
+$(document).ready(function() {
+  $(".datepicker").datepicker({
+    defaultDate: new Date(currYear-5,1,31),
+    // setDefaultDate: new Date(2000,01,31),
+    maxDate: new Date(currYear-5,12,31),
+    yearRange: [1928, currYear-5],
+    format: "yyyy/mm/dd"
+  });
+});
+</script>
+
+    </body>
+  </html>
